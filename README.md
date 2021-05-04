@@ -31,20 +31,19 @@ mobnumber
 
 THEATRE_DB(MANUALLY CREATED)
 
-Venue
-moviename
-screenname
-showtiming
-seatnumber
+theatre_id
+is_available
+seat_no
+time_stamp
 
-BOOKINGDETAIL_DB(created through endpoints)
+booking_details_db(created through endpoints)
 
-userid
-venue
-screenname
-moviename
-showtime
-seatnumber
+booking_id
+seat_no
+show_time
+theatre_id
+transaction_id
+user_id
 
 The endpoints are
 1./MovieApp/CheckSeats
